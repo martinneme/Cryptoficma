@@ -438,9 +438,15 @@ footer .footer_div-Style .footer_p_aling {
     font-size: 16px;
   }
 
+  .main-border-style {
+    padding: 0px;
+    margin: 10px;
+  }
+
   main .submain {
     display: flex;
     flex-direction: column;
+    padding:0;
   }
 
   main .submain .descImg {
@@ -449,6 +455,10 @@ footer .footer_div-Style .footer_p_aling {
     width: auto;
     height: 5%;
     padding-left: 0%;
+  }
+
+  main .submain .descImg Strong{
+  text-align: justify;
   }
 
   .artbutton {
