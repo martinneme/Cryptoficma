@@ -457,9 +457,7 @@ footer .footer_div-Style .footer_p_aling {
     padding-left: 0%;
   }
 
-  main .submain .descImg Strong{
-  text-align: justify;
-  }
+  
 
   .artbutton {
     opacity: 1;
@@ -657,10 +655,8 @@ footer .footer_div-Style .footer_p_aling {
   }
 
   .contact {
-    height: 50vh;
+    height: 60vh;
   }
-
-
 
   footer {
     width: 100%;
