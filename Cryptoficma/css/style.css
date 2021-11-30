@@ -575,6 +575,13 @@ footer .footer_div-Style .footer_p_aling {
   .blockForm .form {
     text-align: center;
   }
+  .blockSomos {
+    height: 80vh;
+  }
+  .blockSomos .blockArt{
+    display: inline-block;
+    width: 33%;
+  }
 
   textarea {
     width: 90%;
