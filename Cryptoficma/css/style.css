@@ -49,7 +49,9 @@ nav ul li {
   top: 50%;
 }
 
-.articulos {
+
+
+main .submain .articulos{
   opacity: 1;
   width: auto;
   display: flex;
@@ -58,6 +60,7 @@ nav ul li {
   justify-content: space-evenly;
   animation-name: art;
   animation-duration: 2s;
+
 }
 
 .main_articulos_width {
@@ -108,6 +111,8 @@ main .submain {
   padding: 5%;
   justify-content: center;
 }
+
+
 
 main .submain .subMenu {
   display: flex;
