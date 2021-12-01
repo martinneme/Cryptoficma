@@ -9,28 +9,31 @@
 body {
 
   font-family: "Poppins", "arimo", "Courier", "monospace";
-
+  font-size: 10px;
 }
 
 html {
   scroll-behavior: smooth;
 }
-.navbar{
+
+.navbar {
   text-align: center;
-  padding-top: 10%;
+  padding: 10px 40px;
 }
 
-.navbar-nav{
-padding-top: 10%;
-}
+
 nav a {
   color: black;
   text-decoration: none;
 }
 
+nav .navbar-toggler{
+  margin-bottom: 20px;
+}
+
 .nav-link:hover {
   background-color: #2ea59f;
-  color: white!important;
+  color: white !important;
   border-radius: 4px;
 }
 
@@ -51,7 +54,7 @@ nav ul li {
 
 
 
-main .submain .articulos{
+main .submain .articulos {
   opacity: 1;
   width: auto;
   display: flex;
@@ -78,7 +81,7 @@ main .submain .articulos{
 }
 
 .btn-primary span {
-  font-size: 1em;
+
   border-color: black;
 
 }
@@ -88,13 +91,22 @@ main .submain .articulos{
   border-radius: 4px;
   background-color: white;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   margin: 20px;
 }
+
+.main-title-border-style{
+  border-radius: 4px;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+}
+
 
 h1 {
   background-color: #062a4d !important;
   color: white !important;
+  font-size: 2em;
 }
 
 main {
@@ -143,12 +155,6 @@ main .submain .descImg {
 
 }
 
-main .submain .carousel-item p{
-  color: black;
-  font-size: 18px;
-  background-color: white;
-}
-
 
 
 main .subjobs {
@@ -161,10 +167,11 @@ main .subjobs {
 
 main .subjobs .job {
   width: 95%;
-  height: 282px;
+  height: 200px;
   object-fit: cover;
   border-radius: 4px;
   margin: 10px;
+  padding: 10px 30px;
 }
 
 main .subjobs .job:hover {
@@ -194,6 +201,7 @@ main .subjobs .job:hover {
   background: none;
   color: white;
   height: auto;
+  margin: 50px;
 
 }
 
@@ -202,8 +210,8 @@ main .subjobs .job:hover {
   padding: 5px;
   margin: 20px;
   border-radius: 4px;
-  width: 40%;
-  height: 2em;
+  width: 70%;
+  height: 3em;
   border-style: solid;
   border-color: white;
   border-width: 2px;
@@ -214,8 +222,8 @@ main .subjobs .job:hover {
   padding: 5px;
   margin: 20px;
   border-radius: 4px;
-  width: 90%;
-  height: 2em;
+  width: 100%;
+  height: 4em;
   border-style: solid;
   outline: none !important;
   border-color: #2ea59f;
@@ -320,17 +328,6 @@ button:hover {
 button a:hover {
   text-decoration: none;
   color: white;
-  font-size: 22px;
-}
-
-.articulos ul li {
-  text-align: justify;
-  list-style-position: inside;
-}
-
-.articulos ol li {
-  list-style-position: inside;
-  text-align: center;
 }
 
 .blockServ {
@@ -369,7 +366,7 @@ button a:hover {
 
 .blockServ .lineaServ .artIcon img {
   width: 100%;
-  
+
 }
 
 .blockServ .lineaServ .artBoton {
@@ -394,15 +391,7 @@ button a:hover {
   margin-top: 5%;
 }
 
-.artbutton button{
-  opacity: 1;
-  width: auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding:50px;
 
-}
 
 footer {
   height: 35%;
@@ -411,20 +400,21 @@ footer {
 }
 
 footer .footer_div-Style {
-  height: 30vh;
+  height: auto;
   background-color: #062a4d;
   background: linear-gradient(#00aaa6, #00238d);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 0px 10px -1px;
   width: 100%;
   align-content: center;
   justify-content: center;
+  padding: 2%;
 }
 
 footer .footer_div-Style .footer_p_aling {
   text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   header {
     display: grid;
     justify-content: center;
@@ -433,6 +423,13 @@ footer .footer_div-Style .footer_p_aling {
   header .menu {
     justify-self: center;
   }
+  header .logo{
+    text-align: center;
+  }
+
+  header .logo img {
+    width: 150px;
+  }
 
   header .menu nav ul li {
     display: block;
@@ -440,7 +437,7 @@ footer .footer_div-Style .footer_p_aling {
 
   .body-fontStyle {
     color: black;
-    font-size: 16px;
+    font-size: 10px;
   }
 
   .main-border-style {
@@ -451,7 +448,7 @@ footer .footer_div-Style .footer_p_aling {
   main .submain {
     display: flex;
     flex-direction: column;
-    padding:0;
+    padding: 0;
   }
 
   main .submain .descImg {
@@ -462,7 +459,6 @@ footer .footer_div-Style .footer_p_aling {
     padding-left: 0%;
   }
 
-  
 
   .artbutton {
     opacity: 1;
@@ -470,19 +466,19 @@ footer .footer_div-Style .footer_p_aling {
     display: flex;
     flex-direction: row;
     align-items: center;
-  
+
   }
 
-  .artbutton button{
+  .artbutton button {
     opacity: 1;
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding:50px;
+    padding: 50px;
     justify-content: center;
   }
- 
+
   .body-flexBoxColum {
     display: flex;
     flex-direction: column;
@@ -492,8 +488,7 @@ footer .footer_div-Style .footer_p_aling {
   .blockSomos {
     display: flex;
     flex-direction: column;
-    height: auto;
-    height: fit-content;
+
 
   }
 
@@ -512,14 +507,23 @@ footer .footer_div-Style .footer_p_aling {
     height: auto !important;
   }
 
-  .blockServ .artTitulo,
-  .blockServ .artBoton {
+  .subjobs .jobs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blockServ .artTitulo {
     align-self: center;
-    width: 90%;
+    width: auto;
     background-color: white;
     justify-content: center;
     align-items: center;
     align-content: center;
+  }
+
+  .blockServ .lineaServ {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .blockServ .artIcon {
@@ -543,26 +547,31 @@ footer .footer_div-Style .footer_p_aling {
   header {
     background-color: white;
     display: grid;
-    grid-template-areas: "logo menu";
+    grid-template-columns: 1fr 2fr 1f
   }
 
   header .logo {
-    grid-area: "logo";
     grid-column: 1/2;
     background-color: white;
+    align-self: center;
+    justify-content: flex-start;
+    padding-left: 0px;
+  }
+
+  header .logo img {
+    width: 150px;
   }
 
   header .menu {
-    Grid-area: "menu";
-    Grid-column: 2/3;
-    Display: grid;
+    grid-column: 3/4;
+    display: grid;
     justify-content: flex-end;
     align-items: flex-end;
   }
 
   .jobs {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 33% 33% 33%;
   }
 
   .blockForm {
@@ -580,10 +589,12 @@ footer .footer_div-Style .footer_p_aling {
   .blockForm .form {
     text-align: center;
   }
+
   .blockSomos {
     height: 80vh;
   }
-  .blockSomos .blockArt{
+
+  .blockSomos .blockArt {
     display: inline-block;
     width: 33%;
   }
@@ -596,16 +607,17 @@ footer .footer_div-Style .footer_p_aling {
     height: auto !important;
   }
 
-  .artbutton{
+  .artbutton {
     display: flex;
   }
-  .artbutton button{
+
+  .artbutton button {
     opacity: 1;
     width: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding:50px;
+    padding: 50px;
   }
 
   footer {
@@ -623,14 +635,30 @@ footer .footer_div-Style .footer_p_aling {
 }
 
 @media only screen and (min-width: 1200px) {
-  body {
-    font-size: 20px;
-  }
-
   header {
     background-color: white;
     display: grid;
-    grid-template-areas: "logo menu";
+    grid-template-columns: 1fr 2fr 1f
+  }
+
+  header .logo {
+    grid-column: 1/2;
+    background-color: white;
+    align-self: center;
+    justify-content: flex-start;
+    padding-left: 30px;
+
+  }
+
+  header .menu {
+    grid-column: 3/4;
+    display: grid;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  header .logo img {
+    width: 150px;
   }
 
   .artbutton {
