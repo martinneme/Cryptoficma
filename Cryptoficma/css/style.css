@@ -352,6 +352,10 @@ button a:hover {
   margin: 1%;
 }
 
+.submain .lineaServ{
+  width: 50%;
+}
+
 .blockServ .lineaServ .artTitulo {
     border-radius: 4px;
     background-color: #062a4d;
