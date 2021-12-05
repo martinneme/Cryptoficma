@@ -7,7 +7,7 @@
 }
 
 body {
-
+  min-height: 100vh;
   font-family: "Poppins", "arimo", "Courier", "monospace";
   font-size: 10px;
 }
@@ -63,7 +63,11 @@ main .submain .articulos {
   justify-content: space-evenly;
   animation-name: art;
   animation-duration: 2s;
+  background-color: #FAFAFA;
+}
 
+.text-white{
+  background-color: #FAFAFA!important;
 }
 
 .main_articulos_width {
@@ -80,24 +84,29 @@ main .submain .articulos {
   }
 }
 
-.btn-primary span {
-
+.btn .btn-primary span {
+  font-size: 1em!important;
   border-color: black;
 
 }
 
 
+
+.tradingview-widget-copyright{
+  display: none;
+}
+
+
 .main-border-style {
   border-radius: 4px;
-  background-color: white;
   text-align: center;
   padding: 10px;
-  margin: 20px;
+ 
 }
 
 .main-title-border-style{
   border-radius: 4px;
-  background-color: white;
+  background-color: rgb(247, 238, 238);
   text-align: center;
   padding: 10px;
 }
@@ -110,21 +119,19 @@ h1 {
 }
 
 main {
-  background-image: url(../img/fondo.png);
+ background-color:#FAFAFA;
   background-size: cover;
   background-repeat: no-repeat;
+  height: auto;
+  min-height: 75vh;
+  align-items: center;
 }
 
 main .main_articulos-shadow {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background-color: #FAFAFA;
+
 }
-
-main .submain {
-  padding: 5%;
-  justify-content: center;
-}
-
-
 
 main .submain .subMenu {
   display: flex;
@@ -132,6 +139,7 @@ main .submain .subMenu {
   height: 282px;
   object-fit: cover;
   justify-content: space-evenly;
+ 
 }
 
 main .submain .imagenes {
@@ -171,11 +179,11 @@ main .subjobs .job {
   object-fit: cover;
   border-radius: 4px;
   margin: 10px;
-  padding: 10px 30px;
+  
 }
 
 main .subjobs .job:hover {
-  transform: scale(1.2, 1.2);
+  transform: scale(1.1, 1.1);
   width: 100%;
   transition: 0.3s;
   box-shadow: 0 5px 10px #719ECE;
@@ -216,6 +224,7 @@ main .subjobs .job:hover {
   border-color: white;
   border-width: 2px;
   border-width: 5px;
+  
 }
 
 .contact form .form-stylos:focus {
@@ -227,13 +236,12 @@ main .subjobs .job:hover {
   border-style: solid;
   outline: none !important;
   border-color: #2ea59f;
-  border-width: 5px;
-  box-shadow: 0 0 5px #719ECE;
+  border-width: 1px;
+  
 }
 
 
 textarea {
-
   height: 250px;
   width: 50%;
 }
@@ -242,9 +250,8 @@ textarea:focus {
 
   outline: none !important;
   border-color: #2ea59f;
-  border-width: 5px;
-  box-shadow: 0 0 5px #719ECE;
   width: 90%;
+  border-width: 1px;
 }
 
 .contact .blockForm form textarea {
@@ -304,14 +311,16 @@ textarea:focus {
 }
 
 
-
 button {
   background-color: white;
-  color: black;
   text-decoration: none;
   width: 200px;
   height: 40px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 0px 10px -1px;
+  border-radius: 4px;
+  border: 1px solid #2ea59f ; 
+  margin:10px;
+  
+  
 }
 
 button a {
@@ -320,10 +329,13 @@ button a {
 }
 
 button:hover {
-  background-color: #2ea59f;
+  
+  background-color:#2ea59f ;
   transform: translate(0, 10px);
-
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 0px 10px -1px;
+  border:none;
 }
+
 
 button a:hover {
   text-decoration: none;
@@ -339,29 +351,30 @@ button a:hover {
 .blockServ .lineaServ {
   display: flex;
   flex-wrap: nowrap;
-  width: 100%;
+  width: 50%;
   align-content: center;
 }
 
 .blockServ .lineaServ .artTitulo {
-  background: chartreuse;
   border-radius: 4px;
-  background-color: white;
+  background-color: #062a4d;
+  color: white;
   text-align: center;
-  padding: 2%;
-  margin: 3%;
+  align-self: center;
   width: 45%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, white 0px 2px 0px -1px;
 }
 
 .blockServ .lineaServ .artIcon {
-  background: chartreuse;
   border-radius: 4px;
+  border:1px solid #00aaa6;
   background-color: white;
   justify-self: center;
   padding: 2%;
-  margin: 3%;
+  margin: 1%;
   width: 10%;
+  height: 10%;
+  align-self: center;
 }
 
 .blockServ .lineaServ .artIcon img {
@@ -371,20 +384,17 @@ button a:hover {
 
 .blockServ .lineaServ .artBoton {
   text-align: center;
-  padding: 2%;
-  margin: 2%;
+  align-self:center;
   width: 35%;
   align-items: center;
   justify-content: center;
+  
 }
 
 .blockServ .lineaServ .artBoton button {
   width: 100%;
-  height: 100%;
   justify-self: center;
   align-self: center;
-
-
 }
 
 .blockServ .lineaServ p {
@@ -459,25 +469,10 @@ footer .footer_div-Style .footer_p_aling {
     padding-left: 0%;
   }
 
-
-  .artbutton {
-    opacity: 1;
-    width: auto;
-    display: flex;
-    flex-direction: row;
+  .main .submain .artbutton{
     align-items: center;
-
   }
 
-  .artbutton button {
-    opacity: 1;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 50px;
-    justify-content: center;
-  }
 
   .body-flexBoxColum {
     display: flex;
@@ -495,6 +490,7 @@ footer .footer_div-Style .footer_p_aling {
   .blockSomos .blockArt {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .contact .blockForm {
@@ -512,19 +508,32 @@ footer .footer_div-Style .footer_p_aling {
     flex-direction: column;
   }
 
-  .blockServ .artTitulo {
+  .blockServ .lineaServ .artTitulo {
     align-self: center;
-    width: auto;
     background-color: white;
-    justify-content: center;
+    width: 100%;
+    
+  }
+
+  .blockServ .lineaServ .artTitulo{
     align-items: center;
-    align-content: center;
+    height: 15px;
+    background-color: #062a4d;
+    color: white;
   }
 
   .blockServ .lineaServ {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  
   }
+
+  .blockServ .lineaServ .artBoton{
+      width: 90%;
+     
+    }
 
   .blockServ .artIcon {
     display: none;
@@ -591,12 +600,13 @@ footer .footer_div-Style .footer_p_aling {
   }
 
   .blockSomos {
-    height: 80vh;
+    height: auto;
   }
 
   .blockSomos .blockArt {
     display: inline-block;
     width: 33%;
+    border-radius: 4px;
   }
 
   textarea {
@@ -608,17 +618,15 @@ footer .footer_div-Style .footer_p_aling {
   }
 
   .artbutton {
-    display: flex;
-  }
-
-  .artbutton button {
     opacity: 1;
     width: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 50px;
+    justify-content: space-evenly;
   }
+
+ 
 
   footer {
     width: 100%;
