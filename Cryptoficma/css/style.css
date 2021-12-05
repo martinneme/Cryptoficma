@@ -475,6 +475,10 @@ footer .footer_div-Style .footer_p_aling {
     align-items: center;
   }
 
+  .submain .lineaServ{
+    width: 50%;
+  }
+
 
   .body-flexBoxColum {
     display: flex;
@@ -594,6 +598,10 @@ footer .footer_div-Style .footer_p_aling {
     align-items: flex-end;
   }
 
+  .submain .lineaServ{
+    width: 50%;
+  }
+
   .jobs {
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -704,6 +712,10 @@ footer .footer_div-Style .footer_p_aling {
 
   header .logo img {
     width: 150px;
+  }
+
+  .submain .lineaServ{
+    width: 50%;
   }
 
   .artbutton {
