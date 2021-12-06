@@ -52,7 +52,10 @@ nav ul li {
   top: 50%;
 }
 
-
+.barra{
+  background: linear-gradient(to right,#00aaa6, #00238d);
+  border-radius: 0px!important;
+}
 
 main .submain .articulos {
   opacity: 1;
