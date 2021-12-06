@@ -460,7 +460,7 @@ footer .footer_div-Style .footer_p_aling {
   main .submain {
     display: flex;
     flex-direction: column;
-    padding: 0;
+    padding: 5%;
   }
 
   main .submain .descImg {
@@ -576,7 +576,7 @@ footer .footer_div-Style .footer_p_aling {
   header {
     background-color: white;
     display: grid;
-    grid-template-columns: 1fr 2fr 1f
+    grid-template-columns: 1fr 2fr 1fr;
   }
 
   header .logo {
