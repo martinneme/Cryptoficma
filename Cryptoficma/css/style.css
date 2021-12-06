@@ -4,12 +4,13 @@
 * {
   padding: 0px;
   margin: 0px;
+  font-size:16px;
 }
 
 body {
   min-height: 100vh;
   font-family: "Poppins", "arimo", "Courier", "monospace";
-  font-size: 10px;
+  
 }
 
 html {
@@ -19,12 +20,14 @@ html {
 .navbar {
   text-align: center;
   padding: 10px 40px;
+  
 }
 
 
 nav a {
   color: black;
   text-decoration: none;
+  font-size: 14px;
 }
 
 nav .navbar-toggler{
@@ -52,10 +55,7 @@ nav ul li {
   top: 50%;
 }
 
-.barra{
-  background: linear-gradient(to right,#00aaa6, #00238d);
-  border-radius: 0px!important;
-}
+
 
 main .submain .articulos {
   opacity: 1;
@@ -356,7 +356,7 @@ button a:hover {
 }
 
 .submain .lineaServ{
-  width: 50%;
+  width: 100%;
 }
 
 .blockServ .lineaServ .artTitulo {
@@ -450,6 +450,8 @@ footer .footer_div-Style .footer_p_aling {
     display: block;
   }
 
+  
+
   .body-fontStyle {
     color: black;
     font-size: 10px;
@@ -478,10 +480,12 @@ footer .footer_div-Style .footer_p_aling {
     align-items: center;
   }
 
-  .submain .lineaServ{
-    width: 50%;
-  }
 
+  
+  .barra{
+    background: linear-gradient(to right,#00aaa6, #00238d);
+    border-radius: 0px!important;
+  }
 
   .body-flexBoxColum {
     display: flex;
@@ -601,8 +605,13 @@ footer .footer_div-Style .footer_p_aling {
     align-items: flex-end;
   }
 
+  .barra{
+    background: linear-gradient(to right,#00aaa6, #00238d);
+    border-radius: 0px!important;
+  }
+
   .submain .lineaServ{
-    width: 50%;
+    width: 100%;
   }
 
   .jobs {
@@ -722,7 +731,7 @@ footer .footer_div-Style .footer_p_aling {
   }
 
   .submain .lineaServ{
-    width: 50%;
+    width: 100%;
   }
 
   .artbutton {
