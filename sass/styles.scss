@@ -201,7 +201,7 @@ main {
   }
 
   .subjobs {
-    display: flex;
+    display: block;
     flex-direction: column;
     align-items: center;
     padding-bottom: 2%;
@@ -209,7 +209,7 @@ main {
 
     .job {
       width: 95%;
-      height: 200px;
+      height: 300px;
       object-fit: cover;
       border-radius: 4px;
       margin: 10px;
