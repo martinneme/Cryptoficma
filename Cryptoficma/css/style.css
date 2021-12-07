@@ -476,9 +476,6 @@ footer .footer_div-Style .footer_p_aling {
     padding-left: 0%;
   }
 
-  .main .submain .artbutton{
-    align-items: center;
-  }
 
 
   
@@ -491,6 +488,12 @@ footer .footer_div-Style .footer_p_aling {
     display: flex;
     flex-direction: column;
     height: auto !important;
+    align-items: center;
+  }
+
+
+  .main .submain .artbutton{
+    align-items: center;
   }
 
   .blockSomos {
