@@ -437,6 +437,8 @@ footer .footer_div-Style .footer_p_aling {
     justify-content: center;
   }
 
+  
+
   header .menu {
     justify-self: center;
   }
@@ -468,6 +470,7 @@ footer .footer_div-Style .footer_p_aling {
     display: flex;
     flex-direction: column;
     padding: 5%;
+    
   }
 
   main .submain .descImg {
@@ -484,6 +487,7 @@ footer .footer_div-Style .footer_p_aling {
   .barra{
     background: linear-gradient(to right,#00aaa6, #00238d);
     border-radius: 0px!important;
+    padding: 1%;
   }
 
   .body-flexBoxColum {
